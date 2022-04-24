@@ -29,7 +29,7 @@ jobs:
         run: |
           cd bapo-dev
           pip3 install wheel
-          pip3 install tgcrypto==1.2.2 Pyrogram requests
+          pip3 install tgcrypto==1.2.2 Pyrogram==1.4.16 requests
       - name: Build wheels
         timeout-minutes: 330
         continue-on-error: true
